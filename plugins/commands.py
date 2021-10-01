@@ -31,10 +31,10 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=https://t.me/cinemaheavensupport")
+                                InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/cinemaheavensupport")
                             ]
                             [
-                                InlineKeyboardButton(" 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣", url=https://t.me/cinemaheavens")
+                                InlineKeyboardButton(" 𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣", url="https://t.me/cinemaheavens")
                             ]
                         ]
                     ),
@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url=https://t.me/cinemaheavensupport'),
-                        InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗚𝗥𝗢𝗨𝗣', url='https://t.me/cinemaheavens')
+                        InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url="https://t.me/cinemaheavensupport"),
+                        InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗚𝗥𝗢𝗨𝗣', url="https://t.me/cinemaheavens")
                     ]
                     ]
                 await bot.send_cached_media(
